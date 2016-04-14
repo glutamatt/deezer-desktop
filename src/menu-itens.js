@@ -76,7 +76,7 @@ function setRepeatItem(options) {
   };
 }
 
-module.exports.setItens = function (options) {
+module.exports.setItems = function (options) {
   let items = [];
 
   items.push({

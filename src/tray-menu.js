@@ -12,7 +12,7 @@ class TrayMenu {
       appTray = new Tray(constants.APP_LOGO);
     }
 
-    const itens = menuItems.setItens(options);
+    const itens = menuItems.setItems(options);
     const contextMenu = Menu.buildFromTemplate(itens);
 
     appTray.setToolTip(constants.APP_NAME);

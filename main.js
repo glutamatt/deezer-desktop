@@ -33,7 +33,6 @@ function createMainWindow() {
     'webPreferences': {
       'plugins': true,
       'nodeIntegration': false,
-
       'preload': path.join(__dirname, 'browser.js')
     }
   });
