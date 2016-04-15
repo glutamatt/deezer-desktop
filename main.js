@@ -189,7 +189,7 @@ app.on('ready', function() {
         var js =  'window.canigoback='+page.canGoBack()+';';
         js =  js+'window.canGoForward='+page.canGoForward()+';';
         page.executeJavaScript(js);
-    },200);
+    },1000);
 
 
     page.on('dom-ready', () => {
@@ -233,7 +233,7 @@ app.on('ready', function() {
                 YesICan = window.canigoback ;
                 window.superbackmenu();
             }
-        },200);
+        },1000);
         
         
         setTimeout(function(){
